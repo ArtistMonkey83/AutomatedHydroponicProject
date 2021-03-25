@@ -18,14 +18,21 @@
           margin-right: 10px; // adding some space after the image
 
         }
+
         p.Microcontroller{ //paragraghs referenced with this tag will be styled
           font-weight: bold; // we can remove the p. in front of the Microcontroller
-
-
         }
+
      </style>
   </head>
   <body>  //body elements that will apear on our page
+    <a href="hydroponicProject2021/html/notifications.html"> Notifications for Tomato</a>  // an achor to another page, one where we will display any notifications we recieved.
+    <h1> Heading 1 </h1> // one and only one what does this page represents
+    <h2> Heading 2 </h2> // This is  like main categories
+    <h3> Heading 3 </h3> // This is like sub categories of a main category
+    <h4> Heading 4 </h4> // the better the structure the better search engines can find approprieate information. there are up to 7 and we shouldn't use for sizing because we can always change the size.
+
+
 
     <img src= "    " alt = "  "> //html5 doesnt require closing tag Previous versions used the <img src= "   " alt = "  "/> a self closing tag
 
@@ -35,7 +42,7 @@
     <p class = "Microcontroller" Microcontroller One - Tomato
     </p>
 
-
+download= " " attached to an anchor allows you to download the element
 
 
   </body>             //Body element end tag
@@ -44,7 +51,13 @@
 
 
 
+HTML Entities
+&lt; escapes less than
+&gt; escapes greater than
+&copy; prints copywrite
+&nbsp; non breaking space forces words to be displayed together.
 
+<a href="  "></a>  //an achor to link to other websites. HREf hypter text reference URL or a link
 
 
 
